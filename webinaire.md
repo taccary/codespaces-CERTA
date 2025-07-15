@@ -27,9 +27,11 @@ Webinaire du réseau CERTA animé par Tiphaine Accary-Barbier et Maëlle Taurand
 
 <div align="center">
 
-[![Webinaire GitHub Education : Classroom et Codespaces](https://img.shields.io/badge/🎥_Regarder_le_webinaire-PodEduc-blue?style=for-the-badge&logo=play&logoColor=white)](https://podeduc.apps.education.fr/video/100993-github-education-classroom-et-codespaces-webinaire-certa-062025/)
+<a href="https://podeduc.apps.education.fr/video/100993-github-education-classroom-et-codespaces-webinaire-certa-062025/" target="_blank">
+<img src="https://img.shields.io/badge/🎥_Regarder_le_webinaire-PodEduc-blue?style=for-the-badge&logo=play&logoColor=white" alt="Webinaire GitHub Education : Classroom et Codespaces">
+</a>
 
-*Cliquez sur le bouton ci-dessus pour accéder à la vidéo sur PodEduc*
+*Cliquez sur le bouton ci-dessus pour accéder à la vidéo sur PodEduc (nouvel onglet)*
 
 </div>
 
@@ -48,6 +50,6 @@ Webinaire du réseau CERTA animé par Tiphaine Accary-Barbier et Maëlle Taurand
 
 <div align="center">
 
-**[← Introduction](intro.md)** | **[Retour au sommaire](README.md)** | **[Templates →](github_codespace_templates.md)**
+**[← Introduction](intro.md)** | **[Retour au sommaire](README.md)** | **[Templates →](templates.md)**
 
 </div>
