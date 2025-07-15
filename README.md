@@ -4,6 +4,23 @@ subtitle: "Sommaire"
 authors: 
   - "Tiphaine Accary-Barbier"
   - "Maëlle Taurand"
+date: 2025-06-30
+description: "Formation complète sur GitHub Education : découverte de Classroom et Codespaces pour transformer l'enseignement de la programmation"
+tags: 
+  - "CERTA"
+  - "GitHub"
+  - "Éducation"
+  - "SIO"
+  - "Développement"
+  - "SLAM"
+  - "Webinaire"
+license: "GNU GPL v3"
+language: "fr"
+---on Github : workflow, Codespaces, classroom - réseau CERTA 2025"
+subtitle: "Sommaire"
+authors: 
+  - "Tiphaine Accary-Barbier"
+  - "Maëlle Taurand"
 date: "2025-06"
 description: "Ressource CERTA sur GitHub Education : découverte de Classroom et Codespaces pour transformer l'enseignement de la programmation"
 tags: 

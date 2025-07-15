@@ -4,8 +4,8 @@ subtitle: "GitHub Education : Templates"
 authors: 
   - "Tiphaine Accary-Barbier"
   - "Maëlle Taurand"
-date: "2025-06"
-description: "Guide pour utiliser et créer des templates GitHub Codespaces dans le cadre pédagogique SIO"
+date: 2025-06-30
+description: "Collection de templates GitHub Codespaces pour l'enseignement : exemples pratiques et configurations prêtes à l'emploi"
 tags: 
   - "GitHub Codespaces"
   - "Templates"
@@ -104,3 +104,6 @@ spécifique :
 | **JavaScript** | SIO1 sem1 B1 | Node est installé dans le Codespace de base. Voici un exemple de dépôt public "Dojo d'exercices de code en javascript vérifiés par des tests unitaires (plateforme d'apprentissage)" partagé par javascriptdezero<br>[coding-dojo](https://github.com/javascriptdezero/coding-dojo/tree/master)<br>Il est possible d'exécuter un codespace directement sur le dépôt public ou de faire un fork du projet. Le dojo est prêt à l'emploi ! |
 
 ## Dépots "vierges" et consignes pour démarrer un projet avec un Codespace
+
+
+**[← Webinaire](webinaire.md)** | **[Retour au sommaire](README.md)** | **[??? →](à venir)**

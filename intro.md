@@ -1,14 +1,14 @@
 ---
-title: "Utiliser et créer des Template Codespace"
-subtitle: "GitHub Education : Templates"
+title: "Introduction à GitHub Education"
+subtitle: "GitHub Codespaces et Classroom"
 authors: 
   - "Tiphaine Accary-Barbier"
   - "Maëlle Taurand"
-date: "2025-06"
-description: "Guide pour utiliser et créer des templates GitHub Codespaces dans le cadre pédagogique SIO"
+date: 2025-06-30
+description: "Guide d'introduction à GitHub Education : découverte de Codespaces et Classroom pour l'enseignement"
 tags: 
   - "GitHub Codespaces"
-  - "Templates"
+  - "GitHub Classroom"
   - "Éducation"
   - "SIO"
   - "Développement"

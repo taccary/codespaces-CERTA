@@ -4,7 +4,7 @@ subtitle: "Formation CERTA - 30 juin 2025"
 authors: 
   - "Tiphaine Accary-Barbier"
   - "Maëlle Taurand"
-date: "2025-06"
+date: 2025-06-30
 description: "Enregistrement du webinaire CERTA sur GitHub Education : découverte de Classroom et Codespaces"
 tags: 
   - "GitHub Codespaces"
