@@ -295,8 +295,5 @@ GitHub](https://docs.github.com/fr/education/manage-coursework-with-github-class
 
 ---
 
-<div align="center">
-
 **[← Retour au sommaire](README.md)** | **[Webinaire →](webinaire.md)**
-
-</div>
+{: .text-center}

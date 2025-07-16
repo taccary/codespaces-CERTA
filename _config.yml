@@ -1,0 +1,22 @@
+theme: jekyll-theme-minimal
+title: "Formation GitHub Codespaces - Réseau CERTA"
+description: "Formation complète sur GitHub Education : découverte de Classroom et Codespaces"
+
+# Configuration pour les plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Configuration Kramdown pour supporter les attributs CSS
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  
+# Inclusion du CSS personnalisé
+sass:
+  sass_dir: assets/css
+  style: compressed

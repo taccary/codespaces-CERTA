@@ -76,12 +76,8 @@ Cette formation sera l'occasion de vous partager comment ces outils peuvent **tr
 - **Formateurs en développement**
 - **Équipes pédagogiques SIO**
 
-
 ---
 
-<div align="center">
-
 **[Commencer la formation →](intro.md)**
-
-</div>
+{: .text-center}
 

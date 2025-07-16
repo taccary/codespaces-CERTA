@@ -1,0 +1,203 @@
+body {
+    font-family: "Liberation Sans", Arial, sans-serif;
+    font-size: 11pt;
+    color: #193B70;
+    counter-reset: h2 h3 h4 h5 h6;
+}
+.arial {
+    font-family: "Arial", Arial, sans-serif !important;
+}
+.times {
+    font-family: "Times New Roman", Arial, sans-serif !important;
+}
+.georgia {
+    font-family: "Georgia", Arial, sans-serif !important;
+}
+.todo {
+    background-color: #C0C0C0;
+}
+.teacher {
+    color: #D93535;
+}
+.student {
+    color: #008000;
+}
+h1 {
+    background-color: #8C104F;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #193B70 !important;
+    font-size: 18pt;
+}
+h2:before {
+    /* On insert la valeur du compteur h2 suivi de 3 espaces */
+    content: counter(h2, upper-alpha) "     ";
+    /* On incrémente la valeur du compteur h2 */
+    white-space : pre;
+}
+h2 {
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #8C104F;
+    margin : 15px 0 5px 5px;
+    counter-increment: h2;
+    counter-reset: h3 h4 h5 h6;
+}
+h3:before {
+    /* On insert la valeur du compteur h2 suivi de 3 espaces */
+    content: counter(h3) "  ";
+    /* On incrémente la valeur du compteur h2 */
+    white-space : pre;
+}
+h3 {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #424242;
+    margin : 5px 0 5px 10px;
+    counter-increment: h3;
+    counter-reset: h4 h5 h6;
+}
+h4:before {
+    /* On insert la valeur du compteur h2 suivi de 3 espaces */
+    content: counter(h3) "." counter(h4) "  ";
+    /* On incrémente la valeur du compteur h2 */
+    white-space : pre;
+}
+h4 {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #7E7E7E;
+    margin : 3px 0 5px 15px;
+    counter-increment: h4;
+    counter-reset: h5 h6;
+}
+h5:before {
+    /* On insert la valeur du compteur h2 suivi de 3 espaces */
+    content: counter(h3) "." counter(h4) "." counter(h5) "  ";
+    /* On incrémente la valeur du compteur h2 */
+    white-space : pre;
+}
+h5 {
+    font-size: 11pt;
+    margin : 3px 0 5px 20px;
+    counter-increment: h5;
+    counter-reset: h6;
+}
+h6:before {
+    /* On insert la valeur du compteur h2 suivi de 3 espaces */
+    content: counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) "  ";
+    /* On incrémente la valeur du compteur h2 */
+    white-space : pre;
+}
+h6 {
+    font-size: 11pt;
+    color: #6379C4;
+    font-style: italic;
+    margin : 3px 0 5px 25px;
+    counter-increment: h6;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #193B70 !important;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #333333;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+table td:first-child {
+    /* Vos styles pour la première colonne ici, à l'exception de la ligne d'en-tête */
+    color: #8C104F;
+    font-weight: bold;
+}
+ul li::marker {
+    color: #8C104F; /* Votre couleur personnalisée pour les puces */
+}
+blockquote {
+    margin : 5px 0px 5px 0px;
+    padding: 10px 10px 10px 50px;
+}
+.info {
+    position: relative;
+    border: 1px solid #15386C; /* Spécifiez l'épaisseur, le style et la couleur de la bordure */
+}
+.info::before {
+    content: "";
+    background: url("./info.png") no-repeat;
+    background-size: 25px 25px; /* Spécifiez la largeur et la hauteur de l'image */
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.warning {
+    position: relative;
+    padding-left: 50px;
+    border: 1px solid #FF9C00; /* Spécifiez l'épaisseur, le style et la couleur de la bordure */
+}
+.warning::before {
+    content: "";
+    background: url("./warning.png") no-repeat;
+    background-size: 25px 25px; /* Spécifiez la largeur et la hauteur de l'image */
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.danger {
+    position: relative;
+    padding-left: 50px;
+    border: 1px solid #8C104F; /* Spécifiez l'épaisseur, le style et la couleur de la bordure */
+    color: #8C104F;
+}
+.danger::before {
+    content: "";
+    background: url("./danger.png") no-repeat;
+    background-size: 25px 25px; /* Spécifiez la largeur et la hauteur de l'image */
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+/* Classe pour centrer le texte */
+.text-center {
+    text-align: center;
+}
+
+/* Styles pour les boutons de navigation */
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8C104F;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.nav-button:hover {
+    background-color: #193B70;
+    color: white;
+    text-decoration: none;
+}
+
+/* Style pour les badges/boutons */
+.badge-button {
+    display: inline-block;
+    margin: 10px 0;
+}
